@@ -20,7 +20,7 @@ Frequency plot of input labels:
 
 # Logistic Regression
 Logistic regression is used to describe data and to explain the relationship between one dependent binary variable and one or more nominal, ordinal, interval or ratio-level independent variables. It supports categorizing data into discrete classes by studying the relationship from a given set of labelled data.  
-Visualizations - cos and alpha graphs
+
 Accuracy: 85%
 Limitations: 
 The major limitation of Logistic Regression is the assumption of linearity between the dependent variable and the independent variables
@@ -43,6 +43,7 @@ Accuracy and performance can be used by better scaling and pre-processing techni
 
 # SVM
 Given labeled training data the algorithm outputs the best hyperplane which classified new examples. In two-dimensional space, this hyperplane is a line splitting a plane into two parts where each class lies on either side. The intention of the support vector machine algorithm is to find a hyperplane in an N-dimensional space that separately classifies the data points.
+
 Accuracy: 81%
 Limitations: 
 1. Long training time for large datasets
@@ -82,6 +83,9 @@ Advantages:
 
 Accuracy can be improved by reducing the complexity of the model by removing noisy features; For unregularized models, you can use feature selection or feature extraction techniques to decrease the number of features.
 
+<img width="412" alt="Screenshot 2022-12-16 114601" src="https://user-images.githubusercontent.com/79498434/208034729-ce09f081-cda6-4bac-b1b5-5a6aef15039e.png">
+
+<img width="275" alt="Screenshot 2022-12-16 114625" src="https://user-images.githubusercontent.com/79498434/208034765-39c18f39-daeb-45cd-8e62-bd05cfd81460.png">
 
 
 # KNN
@@ -101,10 +105,6 @@ Advantages:
 Accuracy can be further improved by using algorithmic tuning that is by parameter tuning. The objective of parameter tuning is to find the optimum value for each parameter to improve the accuracy of the model.
 
 
-<img width="412" alt="Screenshot 2022-12-16 114601" src="https://user-images.githubusercontent.com/79498434/208034729-ce09f081-cda6-4bac-b1b5-5a6aef15039e.png">
-
-<img width="275" alt="Screenshot 2022-12-16 114625" src="https://user-images.githubusercontent.com/79498434/208034765-39c18f39-daeb-45cd-8e62-bd05cfd81460.png">
-
 <img width="422" alt="Screenshot 2022-12-16 114644" src="https://user-images.githubusercontent.com/79498434/208034819-bf55277b-e524-4320-94b4-7fb3c32ef8a1.png">
 
 <img width="203" alt="Screenshot 2022-12-16 114754" src="https://user-images.githubusercontent.com/79498434/208035101-d1fcd57a-0940-48bd-ae4a-57d9e5d808fd.png">
@@ -115,14 +115,11 @@ As we vary the value of K-Nearest neighbors, the training and testing dataset ac
 
 The confusion matrices for all 4 algorithms provides us the value if true positives, true negatives, false positives and false negatives. By comparing two confusion matrices, we can determine the true positive value let’s say for the number 1 is 905 (KNN), 857 (Naive Bayes), 580 (SVM) and 786 (Logistic) that means KNN gives the most number of true 1’s for label 1 and hence more accurate. Similarly we can calculate other parameters for different labels thereby getting a sense of the accuracy score, precision and recall.
 
-#Bias Variance tradeoff:
+# Bias Variance tradeoff:
 Bias is the difference between the average prediction of our model and the correct value which we are trying to predict.
 Variance is the variability of model prediction for a given data point or a value which tells us spread of our data.
 The algorithms used above all are supervised learning algorithms since the output label data has already been provided to us and we need to classify based on that. Hence most of these algorithms face the limitation of overfitting that happens when our model captures the noise along with the underlying pattern in data. It happens when we train our model a lot over noisy datasets. These models have low bias and high variance. Learning curves give us an opportunity to diagnose bias and variance in supervised learning models.
 If the training error is high, it means that the training data is not fitted well enough by the estimated model. If the model fails to fit the training data well, it means it has high bias with respect to that set of data.
-
-variance
-
 A narrow gap indicates low variance. Generally, the more narrow the gap, the lower the variance. The opposite is also true: the wider the gap, the greater the variance.
 
 We should always choose hyperparameters so that both bias and variance are as low as possible and more training dataset.
