@@ -36,9 +36,7 @@ Confusion Matrix is a performance measurement for machine learning classificatio
 Misclassification might occur if the model is too simple or the data is very noisy (data not so stable with high variability). The multiple classes might not be linearly separable. The problem of overfitting (model fits exactly against its training data but algorithm unfortunately cannot perform accurately against unseen data, defeating its purpose) might be another factor. 
 
 Accuracy and performance can be used by better scaling and pre-processing techniques. Using a different set of optimal values for the hyperparameters such that it tunes perfectly. Increasing the training data sample can also contribute to increasing the accuracy.
-                 <img width="404" alt="Screenshot 2022-12-16 114423" src="https://user-images.githubusercontent.com/79498434/208034525-d0043ce9-5773-4ce1-91e7-30a9cd2d6adf.png">
-
-<img width="376" alt="Screenshot 2022-12-16 114500" src="https://user-images.githubusercontent.com/79498434/208034603-5536cf90-acd9-46a4-985d-a3b32dbee1fb.png">
+                 <img width="404" alt="Screenshot 2022-12-16 114423" src="https://user-images.githubusercontent.com/79498434/208034525-d0043ce9-5773-4ce1-91e7-30a9cd2d6adf.png"> <img width="376" alt="Screenshot 2022-12-16 114500" src="https://user-images.githubusercontent.com/79498434/208034603-5536cf90-acd9-46a4-985d-a3b32dbee1fb.png">
 
 
 # SVM
@@ -83,9 +81,7 @@ Advantages:
 
 Accuracy can be improved by reducing the complexity of the model by removing noisy features; For unregularized models, you can use feature selection or feature extraction techniques to decrease the number of features.
 
-<img width="412" alt="Screenshot 2022-12-16 114601" src="https://user-images.githubusercontent.com/79498434/208034729-ce09f081-cda6-4bac-b1b5-5a6aef15039e.png">
-
-<img width="275" alt="Screenshot 2022-12-16 114625" src="https://user-images.githubusercontent.com/79498434/208034765-39c18f39-daeb-45cd-8e62-bd05cfd81460.png">
+<img width="412" alt="Screenshot 2022-12-16 114601" src="https://user-images.githubusercontent.com/79498434/208034729-ce09f081-cda6-4bac-b1b5-5a6aef15039e.png"><img width="275" alt="Screenshot 2022-12-16 114625" src="https://user-images.githubusercontent.com/79498434/208034765-39c18f39-daeb-45cd-8e62-bd05cfd81460.png">
 
 
 # KNN
@@ -105,9 +101,7 @@ Advantages:
 Accuracy can be further improved by using algorithmic tuning that is by parameter tuning. The objective of parameter tuning is to find the optimum value for each parameter to improve the accuracy of the model.
 
 
-<img width="422" alt="Screenshot 2022-12-16 114644" src="https://user-images.githubusercontent.com/79498434/208034819-bf55277b-e524-4320-94b4-7fb3c32ef8a1.png">
-
-<img width="203" alt="Screenshot 2022-12-16 114754" src="https://user-images.githubusercontent.com/79498434/208035101-d1fcd57a-0940-48bd-ae4a-57d9e5d808fd.png">
+<img width="422" alt="Screenshot 2022-12-16 114644" src="https://user-images.githubusercontent.com/79498434/208034819-bf55277b-e524-4320-94b4-7fb3c32ef8a1.png"><img width="203" alt="Screenshot 2022-12-16 114754" src="https://user-images.githubusercontent.com/79498434/208035101-d1fcd57a-0940-48bd-ae4a-57d9e5d808fd.png">
 
 
  
